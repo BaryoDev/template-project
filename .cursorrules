@@ -26,6 +26,16 @@ This project uses BaryoDev skills for AI-assisted development.
 - Maintain: Features, Changelog, FAQ, Migration guides
 - See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-documentation
 
+### baryo-workflow
+- Follow 2-week sprint cycles
+- Daily standups, sprint planning, retrospectives
+- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-workflow
+
+### baryo-collaboration
+- PR standards, code review guidelines
+- Team communication best practices
+- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-collaboration
+
 ---
 
 ## 🎯 Next Steps

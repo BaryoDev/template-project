@@ -3,12 +3,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Project Name',
   description: 'Project documentation built with VitePress',
-  
+
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
-      { text: 'Reference', link: '/reference/' }
+      { text: 'Reference', link: '/reference/' },
+      { text: 'Workflow', link: '/workflow/sprints' }
     ],
 
     sidebar: {
@@ -35,6 +36,15 @@ export default defineConfig({
             { text: 'Changelog', link: '/reference/changelog' },
             { text: 'FAQ', link: '/reference/faq' },
             { text: 'Migration Guide', link: '/reference/migration' }
+          ]
+        }
+      ],
+      '/workflow/': [
+        {
+          text: 'Workflow',
+          items: [
+            { text: 'Sprint Standards', link: '/workflow/sprints' },
+            { text: 'Code Review', link: '/workflow/code-review' }
           ]
         }
       ]
