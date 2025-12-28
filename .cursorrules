@@ -21,6 +21,11 @@ This project uses BaryoDev skills for AI-assisted development.
 - Ensure all files have proper headers
 - See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-compliance
 
+### baryo-documentation
+- Use VitePress for all documentation
+- Maintain: Features, Changelog, FAQ, Migration guides
+- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-documentation
+
 ---
 
 ## 🎯 Next Steps

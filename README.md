@@ -31,6 +31,36 @@ The AI now knows your project's rules and will assist accordingly!
 
 ---
 
+## 📚 Documentation
+
+This template includes a pre-configured **VitePress** documentation site.
+
+### Run Documentation Locally
+
+```bash
+npm install
+npm run docs:dev
+```
+
+Visit `http://localhost:5173` to see your docs.
+
+### Documentation Structure
+
+- **Home** (`docs/index.md`): Landing page with hero and features
+- **Guide** (`docs/guide/`): Getting started, installation, quick start, features
+- **Reference** (`docs/reference/`): Changelog, FAQ, migration guides
+
+### Build for Production
+
+```bash
+npm run docs:build
+npm run docs:preview
+```
+
+The built site will be in `docs/.vitepress/dist/`.
+
+---
+
 ## 📊 Workflow Diagram
 
 ```mermaid
