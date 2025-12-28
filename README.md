@@ -52,7 +52,15 @@ To optimize token consumption, this template uses **BaryoDev Skills Lite** by de
 1. **Lite Skills**: Provide high-level rules in `.cursorrules` for daily work.
 2. **Full Skills**: When you need deep expertise (e.g., "Review my API for security vulnerabilities"), ask the AI:
    > "Load **baryo-security** skill"
-3. **Fetching**: The AI will use `./scripts/get-skill.sh` to fetch the full documentation from the [Skills Library](https://github.com/BaryoDev/skills).
+3: **Fetching**: The AI will use `./scripts/get-skill.sh` to fetch the full documentation from the [Skills Library](https://github.com/BaryoDev/skills).
+
+### 🧱 Intelligence Compression (baryo-compact)
+
+As your project grows, your logs and mistakes can become too large for the AI to process effectively. This template includes a manual "Auto-Compact" feature.
+
+- **The Command**: `npm run compact`
+- **What it does**: Gathers all your historical logs and prompts the AI to distill them into a dense, high-utility `.baryo/CONTEXT.md` file.
+- **The Result**: You preserve 100% of your project's "Core Intelligence" and architectural "Whys" while saving thousands of tokens per session.
 
 ---
 
