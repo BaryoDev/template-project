@@ -42,6 +42,13 @@ This project uses BaryoDev skills for AI-assisted development.
 - Deletion safety: Request permission before removing code
 - See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-discipline
 
+### baryo-learning
+- Document every task in work logs
+- Create mistake reports with root cause analysis
+- Propose skill updates based on learnings
+- Contribute improvements via PRs to skills repo
+- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-learning
+
 ---
 
 ## 🎯 Next Steps

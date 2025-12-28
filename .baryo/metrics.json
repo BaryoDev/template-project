@@ -1,0 +1,19 @@
+{
+    "sessions": 0,
+    "mistakes": {
+        "total": 0,
+        "by_category": {
+            "hallucination": 0,
+            "assumption": 0,
+            "lazy_testing": 0,
+            "code_deletion": 0,
+            "performance": 0
+        }
+    },
+    "skills_updated": 0,
+    "prs_created": 0,
+    "prs_merged": 0,
+    "learning_rate": "stable",
+    "common_mistakes": [],
+    "strengths": []
+}
