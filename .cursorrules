@@ -36,6 +36,12 @@ This project uses BaryoDev skills for AI-assisted development.
 - Team communication best practices
 - See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-collaboration
 
+### baryo-discipline
+- Comprehensive testing (happy path + edge cases + failure modes)
+- Anti-hallucination: Never invent APIs, always ask for clarification
+- Deletion safety: Request permission before removing code
+- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-discipline
+
 ---
 
 ## 🎯 Next Steps
