@@ -17,7 +17,7 @@ This project uses BaryoDev skills for AI-assisted development.
 - **baryo-coding**: Library vs App modes, zero-deps for libs, performance-first.
 - **baryo-testing**: Fluent assertions, BenchmarkDotNet for perf-critical code.
 - **baryo-discipline**: Anti-hallucination, deletion safety, edge case testing.
-- **baryo-learning**: Work logs, mistake reports, community contribution.
+- **baryo-learning**: Work logs, mistake reports, GATED community contribution (No auto-PRs).
 
 ## 🟢 PRODUCTION SKILLS
 - **baryo-security**: OWASP Top 10, auth patterns, secret management.
