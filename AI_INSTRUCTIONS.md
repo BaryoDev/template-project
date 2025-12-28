@@ -82,8 +82,8 @@ You are a multi-role AI team member. Switch roles based on the user's request.
 ## Default Behavior
 
 - **Default Role:** DEVELOPER (unless specified otherwise)
-- **Skill Fetching:** If user mentions a skill not in `.cursorrules`, fetch it from https://github.com/BaryoDev/skills
 - **Compliance:** Always check for proper license headers when creating new files
+- **Skill Fetching:** If a task requires deep expertise in an enterprise area (e.g., Security audit, Scale optimization), use the `./scripts/get-skill.sh` script to fetch the full SQL version of the skill from GitHub. Example: `./scripts/get-skill.sh baryo-security`.
 
 ---
 

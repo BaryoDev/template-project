@@ -6,134 +6,47 @@ This project uses BaryoDev skills for AI-assisted development.
 
 ---
 
+### baryo-skills-lite
+- Condensed summaries of all 19 BaryoDev skills
+- Use for daily development to save tokens
+- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-skills-lite
+
+---
+
 ## 🔵 CORE SKILLS (Always Active)
+- **baryo-coding**: Library vs App modes, zero-deps for libs, performance-first.
+- **baryo-testing**: Fluent assertions, BenchmarkDotNet for perf-critical code.
+- **baryo-discipline**: Anti-hallucination, deletion safety, edge case testing.
+- **baryo-learning**: Work logs, mistake reports, community contribution.
 
-These skills are fundamental to the BaryoDev philosophy.
+## 🟢 PRODUCTION SKILLS
+- **baryo-security**: OWASP Top 10, auth patterns, secret management.
+- **baryo-observability**: Structured logging, OpenTelemetry, metrics/alerting.
+- **baryo-compliance**: License headers, git sanitization.
 
-### baryo-coding
-- Library vs Application modes
-- Zero dependencies for libraries
-- Performance-first patterns
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-coding
+## 🟡 PROCESS SKILLS
+- **baryo-workflow**: 2-week sprints, estimation, Definition of Done.
+- **baryo-collaboration**: PR standards, code review, communication.
+- **baryo-documentation**: VitePress, changelogs, migration guides.
+- **baryo-packaging**: NuGet/npm publishing, SemVer 2.0.
 
-### baryo-testing
-- Fluent assertions (Verdict style)
-- BenchmarkDotNet for performance
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-testing
-
-### baryo-discipline
-- Comprehensive testing (happy path + edge cases + failures)
-- Anti-hallucination rules
-- Deletion safety protocols
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-discipline
-
-### baryo-learning
-- Self-documentation and audit trails
-- Mistake analysis and skill updates
-- Community contribution via PRs
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-learning
-
----
-
-## 🟢 PRODUCTION SKILLS (Recommended for All Projects)
-
-These skills ensure production readiness.
-
-### baryo-security
-- OWASP Top 10 prevention
-- Authentication/authorization patterns
-- Secret management
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-security
-
-### baryo-observability
-- Structured logging (Serilog, Pino)
-- Distributed tracing (OpenTelemetry)
-- Metrics and alerting
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-observability
-
-### baryo-compliance
-- License headers (MPL-2.0 for libs, MPL-2.0 for demos)
-- Git history sanitization
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-compliance
+## 🔴 ENTERPRISE SKILLS
+- **baryo-api**: REST/GraphQL standards, versioning, rate limiting.
+- **baryo-privacy**: GDPR/CCPA, PII handling, right to deletion.
+- **baryo-scale**: Caching, DB optimization, horizontal scaling.
+- **baryo-global**: i18n, accessibility (a11y), RTL support.
+- **baryo-devops**: CI/CD, IaC, containers, deployments.
+- **baryo-resilience**: Circuit breakers, disaster recovery, backups.
+- **baryo-finops**: Cloud cost optimization, tagging, budget alerts.
+- **baryo-architecture**: Vertical Slice Architecture, fail-fast startup.
 
 ---
 
-## 🟡 PROCESS SKILLS (Team Collaboration)
+## 🎯 Dynamic Skill Loading
+For full skill details, examples, and rules, say:
+"Load **baryo-[skill-name]** skill"
 
-These skills define how teams work together.
-
-### baryo-workflow
-- 2-week sprint cycles
-- Sprint planning and retrospectives
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-workflow
-
-### baryo-collaboration
-- PR standards and code review
-- Communication best practices
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-collaboration
-
-### baryo-documentation
-- VitePress for all docs
-- Changelog, FAQ, migration guides
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-documentation
-
-### baryo-packaging
-- Manual NuGet/npm publishing
-- SemVer 2.0 versioning
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-packaging
-
----
-
-## 🔴 ENTERPRISE SKILLS (Scale & Compliance)
-
-Activate these for enterprise-grade applications.
-
-### baryo-api
-- RESTful and GraphQL standards
-- Versioning and rate limiting
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-api
-
-### baryo-privacy
-- GDPR/CCPA compliance
-- PII handling and consent management
-- Right to deletion
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-privacy
-
-### baryo-scale
-- Caching strategies
-- Database optimization
-- Horizontal scaling
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-scale
-
-### baryo-global
-- Internationalization (i18n)
-- Accessibility (a11y) - WCAG 2.1
-- RTL support
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-global
-
-### baryo-devops
-- CI/CD pipelines
-- Infrastructure as Code
-- Containerization
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-devops
-
-### baryo-resilience
-- Circuit breakers
-- Disaster recovery
-- Business continuity
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-resilience
-
-### baryo-finops
-- Cloud cost optimization
-- Resource tagging
-- Budget alerts
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-finops
-
-### baryo-architecture
-- Vertical Slice Architecture
-- Observability patterns
-- Fail-fast startup
-- https://github.com/BaryoDev/skills/tree/main/skills/baryo-architecture
+The AI will fetch the complete documentation from the [Skills Library](https://github.com/BaryoDev/skills).
 
 ---
 

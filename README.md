@@ -44,6 +44,19 @@ npm run docs:dev
 
 Visit `http://localhost:5173` to see your docs.
 
+## 🧠 Smart Skill Loading
+
+To optimize token consumption, this template uses **BaryoDev Skills Lite** by default (~2.5k tokens vs 16.5k total).
+
+### How it Works:
+1. **Lite Skills**: Provide high-level rules in `.cursorrules` for daily work.
+2. **Full Skills**: When you need deep expertise (e.g., "Review my API for security vulnerabilities"), ask the AI:
+   > "Load **baryo-security** skill"
+3. **Fetching**: The AI will use `./scripts/get-skill.sh` to fetch the full documentation from the [Skills Library](https://github.com/BaryoDev/skills).
+
+---
+
+## 🏗️ Getting Started
 ### Documentation Structure
 
 - **Home** (`docs/index.md`): Landing page with hero and features
