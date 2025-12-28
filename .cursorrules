@@ -1,83 +1,162 @@
 # BaryoDev Project Template
 # Skills Repository: https://github.com/BaryoDev/skills
+# Total Skills Available: 19
 
 This project uses BaryoDev skills for AI-assisted development.
 
-## Core Skills (Always Active)
+---
+
+## 🔵 CORE SKILLS (Always Active)
+
+These skills are fundamental to the BaryoDev philosophy.
 
 ### baryo-coding
-- Auto-detects Library vs Application mode
-- Zero external dependencies for libraries
-- Vertical Slice Architecture for applications
-- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-coding
+- Library vs Application modes
+- Zero dependencies for libraries
+- Performance-first patterns
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-coding
 
 ### baryo-testing
 - Fluent assertions (Verdict style)
-- BenchmarkDotNet for performance testing
-- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-testing
-
-### baryo-compliance
-- License: MPL-2.0 (for templates/examples)
-- Ensure all files have proper headers
-- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-compliance
-
-### baryo-documentation
-- Use VitePress for all documentation
-- Maintain: Features, Changelog, FAQ, Migration guides
-- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-documentation
-
-### baryo-workflow
-- Follow 2-week sprint cycles
-- Daily standups, sprint planning, retrospectives
-- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-workflow
-
-### baryo-collaboration
-- PR standards, code review guidelines
-- Team communication best practices
-- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-collaboration
+- BenchmarkDotNet for performance
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-testing
 
 ### baryo-discipline
-- Comprehensive testing (happy path + edge cases + failure modes)
-- Anti-hallucination: Never invent APIs, always ask for clarification
-- Deletion safety: Request permission before removing code
-- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-discipline
+- Comprehensive testing (happy path + edge cases + failures)
+- Anti-hallucination rules
+- Deletion safety protocols
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-discipline
 
 ### baryo-learning
-- Document every task in work logs
-- Create mistake reports with root cause analysis
-- Propose skill updates based on learnings
-- Contribute improvements via PRs to skills repo
-- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-learning
+- Self-documentation and audit trails
+- Mistake analysis and skill updates
+- Community contribution via PRs
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-learning
 
 ---
 
-## 🎯 Next Steps
+## 🟢 PRODUCTION SKILLS (Recommended for All Projects)
 
-To customize this project for your specific needs, prompt the AI:
+These skills ensure production readiness.
 
-```
-This is a [PROJECT_TYPE] project. Update .cursorrules by fetching skills from https://github.com/BaryoDev/skills:
-- [skill-name-1]
-- [skill-name-2]
+### baryo-security
+- OWASP Top 10 prevention
+- Authentication/authorization patterns
+- Secret management
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-security
 
-Then add [PROJECT_TYPE]-specific rules:
-- [Rule 1]
-- [Rule 2]
-```
+### baryo-observability
+- Structured logging (Serilog, Pino)
+- Distributed tracing (OpenTelemetry)
+- Metrics and alerting
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-observability
 
-Example for Android:
-```
-This is an Android project. Update .cursorrules by fetching skills from https://github.com/BaryoDev/skills:
-- webapp-testing
-
-Then add Android-specific rules:
-- Use Kotlin
-- Jetpack Compose for UI
-- Hilt for dependency injection
-```
+### baryo-compliance
+- License headers (MPL-2.0 for libs, MPL-2.0 for demos)
+- Git history sanitization
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-compliance
 
 ---
 
-## Available Skills
+## 🟡 PROCESS SKILLS (Team Collaboration)
 
-Browse all available skills at: https://github.com/BaryoDev/skills/tree/main/skills
+These skills define how teams work together.
+
+### baryo-workflow
+- 2-week sprint cycles
+- Sprint planning and retrospectives
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-workflow
+
+### baryo-collaboration
+- PR standards and code review
+- Communication best practices
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-collaboration
+
+### baryo-documentation
+- VitePress for all docs
+- Changelog, FAQ, migration guides
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-documentation
+
+### baryo-packaging
+- Manual NuGet/npm publishing
+- SemVer 2.0 versioning
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-packaging
+
+---
+
+## 🔴 ENTERPRISE SKILLS (Scale & Compliance)
+
+Activate these for enterprise-grade applications.
+
+### baryo-api
+- RESTful and GraphQL standards
+- Versioning and rate limiting
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-api
+
+### baryo-privacy
+- GDPR/CCPA compliance
+- PII handling and consent management
+- Right to deletion
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-privacy
+
+### baryo-scale
+- Caching strategies
+- Database optimization
+- Horizontal scaling
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-scale
+
+### baryo-global
+- Internationalization (i18n)
+- Accessibility (a11y) - WCAG 2.1
+- RTL support
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-global
+
+### baryo-devops
+- CI/CD pipelines
+- Infrastructure as Code
+- Containerization
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-devops
+
+### baryo-resilience
+- Circuit breakers
+- Disaster recovery
+- Business continuity
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-resilience
+
+### baryo-finops
+- Cloud cost optimization
+- Resource tagging
+- Budget alerts
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-finops
+
+### baryo-architecture
+- Vertical Slice Architecture
+- Observability patterns
+- Fail-fast startup
+- https://github.com/BaryoDev/skills/tree/main/skills/baryo-architecture
+
+---
+
+## 🎯 Quick Activation Guide
+
+Tell the AI which skills to use:
+
+**Library Project:**
+"Activate: baryo-coding (Library Mode), baryo-testing, baryo-discipline, baryo-packaging"
+
+**Web API Project:**
+"Activate: baryo-coding (Application Mode), baryo-api, baryo-security, baryo-observability"
+
+**Enterprise SaaS:**
+"Activate ALL production + enterprise skills"
+
+**Global Product:**
+"Activate: baryo-global, baryo-privacy, baryo-scale"
+
+---
+
+## 📚 Full Documentation
+
+- Template Guide: https://github.com/BaryoDev/template-project
+- Skills Library: https://github.com/BaryoDev/skills
+- Example Projects: Carom, Mapsicle, Verdict
