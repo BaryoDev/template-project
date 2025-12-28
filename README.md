@@ -268,6 +268,19 @@ template-project/
 
 ---
 
+## 🛡️ Safety & Security
+
+**Zero Automated Contributions.**
+The BaryoDev ecosystem follows a strict "Safety First" policy. While the **baryo-learning** skill allows the AI to suggest improvements to the global skills library, **no automated pull requests or pushes** will ever be made to community repositories without your explicit, manual approval in the current session.
+
+The process is always:
+1. AI identifies an improvement or fix.
+2. AI drafts the proposal locally in `.baryo/skill-proposals/`.
+3. AI presents the changes for your review.
+4. **You** provide the final "Go" signal before any PR is created.
+
+---
+
 ## 🤝 Contributing
 
 To add a new skill to the library:
