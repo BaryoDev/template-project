@@ -1,0 +1,55 @@
+# BaryoDev Project Template
+# Skills Repository: https://github.com/BaryoDev/skills
+
+This project uses BaryoDev skills for AI-assisted development.
+
+## Core Skills (Always Active)
+
+### baryo-coding
+- Auto-detects Library vs Application mode
+- Zero external dependencies for libraries
+- Vertical Slice Architecture for applications
+- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-coding
+
+### baryo-testing
+- Fluent assertions (Verdict style)
+- BenchmarkDotNet for performance testing
+- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-testing
+
+### baryo-compliance
+- License: MPL-2.0 (for templates/examples)
+- Ensure all files have proper headers
+- See: https://github.com/BaryoDev/skills/tree/main/skills/baryo-compliance
+
+---
+
+## 🎯 Next Steps
+
+To customize this project for your specific needs, prompt the AI:
+
+```
+This is a [PROJECT_TYPE] project. Update .cursorrules by fetching skills from https://github.com/BaryoDev/skills:
+- [skill-name-1]
+- [skill-name-2]
+
+Then add [PROJECT_TYPE]-specific rules:
+- [Rule 1]
+- [Rule 2]
+```
+
+Example for Android:
+```
+This is an Android project. Update .cursorrules by fetching skills from https://github.com/BaryoDev/skills:
+- webapp-testing
+
+Then add Android-specific rules:
+- Use Kotlin
+- Jetpack Compose for UI
+- Hilt for dependency injection
+```
+
+---
+
+## Available Skills
+
+Browse all available skills at: https://github.com/BaryoDev/skills/tree/main/skills
