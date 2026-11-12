@@ -16,9 +16,7 @@ echo "### FETCHING FULL SKILL: $SKILL_NAME ###"
 echo "Source: $URL"
 echo ""
 
-curl -s "$URL"
-
-if [ $? -ne 0 ]; then
+if ! curl -fsS "$URL"; then
     echo "Error: Could not fetch skill $SKILL_NAME. Verify the name and your internet connection."
     exit 1
 fi

@@ -20,9 +20,9 @@ echo "---" >> "$TEMP_FILE"
 if [ "$(ls -A .baryo/logs/*.md 2>/dev/null)" ]; then
     echo "Processing logs..."
     for f in .baryo/logs/*.md; do
-        echo "\n## FILE: $f" >> "$TEMP_FILE"
+        printf '\n## FILE: %s\n' "$f" >> "$TEMP_FILE"
         cat "$f" >> "$TEMP_FILE"
-        echo "\n---" >> "$TEMP_FILE"
+        printf '\n---\n' >> "$TEMP_FILE"
     done
 fi
 
@@ -30,9 +30,9 @@ fi
 if [ "$(ls -A .baryo/mistakes/*.md 2>/dev/null)" ]; then
     echo "Processing mistakes..."
     for f in .baryo/mistakes/*.md; do
-        echo "\n## FILE: $f" >> "$TEMP_FILE"
+        printf '\n## FILE: %s\n' "$f" >> "$TEMP_FILE"
         cat "$f" >> "$TEMP_FILE"
-        echo "\n---" >> "$TEMP_FILE"
+        printf '\n---\n' >> "$TEMP_FILE"
     done
 fi
 
