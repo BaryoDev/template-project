@@ -16,7 +16,8 @@ echo "### FETCHING FULL SKILL: $SKILL_NAME ###"
 echo "Source: $URL"
 echo ""
 
-if ! curl -fsS "$URL"; then
-    echo "Error: Could not fetch skill $SKILL_NAME. Verify the name and your internet connection."
+body=$(curl -fsS "$URL") || {
+    echo "Error: Could not fetch skill $SKILL_NAME. Verify the name and your internet connection." >&2
     exit 1
-fi
+}
+printf '%s\n' "$body"
