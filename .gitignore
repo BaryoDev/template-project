@@ -27,4 +27,5 @@ Thumbs.db
 *.log
 
 # Learning artifacts (tracked for transparency)
-# .baryo/ is intentionally NOT ignored
+# .baryo/ is intentionally NOT ignored, except the temp file written by npm run compact
+.baryo/HISTORY.tmp
